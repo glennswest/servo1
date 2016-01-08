@@ -37,6 +37,23 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
+DocumentPath=servo-digital.pcb
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=VVSCAMFV
+
+[Document2]
 DocumentPath=servo.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -53,14 +70,14 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MTWFXXLA
 
-[Document2]
+[Document3]
 DocumentPath=Sheet1_servo.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -70,25 +87,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ECTXDQVD
 
-[Document3]
-DocumentPath=..\fastcar\pcbdesign\PCB_Project\PCMCIA Type 2 Shielded 15 Pin IO Connector.schdoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=JISYULWR
-
 [Document4]
-DocumentPath=..\fastcar\pcbdesign\PCB_Project\PCMCIA Type 2 Shielded 15 Pin IO Connector.PCBDOC
+DocumentPath=Servo.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -102,7 +102,45 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=BTUJWOKF
+DocumentUniqueId=
+
+[Document5]
+DocumentPath=nccpcblib.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=KQMUYRSG
+
+[Document6]
+DocumentPath=servo.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=QWAJUHFF
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for Servo\Move Component(s) Origin To Grid - servo-digital.html
+DItemRevisionGUID=
 
 [Configuration1]
 Name=Default Configuration
@@ -114,10 +152,49 @@ Variant=[No Variations]
 GenerateBOM=1
 OutputJobsCount=0
 
+[Generic_SmartPDF]
+AutoOpenFile=-1
+AutoOpenOutJob=-1
+
+[Generic_SmartPDFSettings]
+ProjectMode=0
+ZoomPrecision=50
+AddNetsInformation=-1
+AddNetPins=-1
+AddNetNetLabels=-1
+AddNetPorts=-1
+ShowComponentParameters=-1
+GlobalBookmarks=0
+ExportBOM=-1
+TemplateFilename=
+TemplateStoreRelative=-1
+PCB_PrintColor=1
+SCH_PrintColor=0
+PrintQuality=-3
+SCH_ShowNoErc=-1
+SCH_ShowParameter=-1
+SCH_ShowProbes=-1
+SCH_ShowBlankets=-1
+SCH_NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle
+SCH_ShowNote=-1
+SCH_ShowNoteCollapsed=-1
+SCH_ExpandLogicalToPhysical=0
+SCH_VariantName=[No Variations]
+SCH_ExpandComponentDesignators=-1
+SCH_ExpandNetlabels=0
+SCH_ExpandPorts=0
+SCH_ExpandSheetNumber=0
+SCH_ExpandDocumentNumber=0
+SCH_HasExpandLogicalToPhysicalSheets=-1
+SaveSettingsToOutJob=-1
+
+[Generic_EDE]
+OutputDir=
+
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=EPSON9EE410 (K100)#:1
+TargetPrinter=Microsoft XPS Document Writer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=VHDL
 OutputName1=VHDL File
@@ -153,7 +230,7 @@ OutputDefault6=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=EPSON9EE410 (K100)#:1
+TargetPrinter=Microsoft XPS Document Writer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AdvSimNetlist
 OutputName1=Mixed Sim
@@ -190,10 +267,12 @@ OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
 OutputType3=Schematic Print
 OutputName3=Schematic Prints
-OutputDocumentPath3=
+OutputDocumentPath3=Z:\3dprinter\servo\Sheet1_servo.SchDoc
 OutputVariantName3=
 OutputDefault3=0
 PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
+Configuration3_Name1=OutputConfigurationParameter1
+Configuration3_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0
 OutputType4=Assembler Source Print
 OutputName4=Assembler Source Prints
 OutputDocumentPath4=
@@ -282,7 +361,7 @@ PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=EPSON9EE410 (K100)#:1
+TargetPrinter=Microsoft XPS Document Writer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -304,7 +383,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=EPSON9EE410 (K100)#:1
+TargetPrinter=Microsoft XPS Document Writer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CompositeDrill
 OutputName1=Composite Drill Drawing
@@ -376,7 +455,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=EPSON9EE410 (K100)#:1
+TargetPrinter=Microsoft XPS Document Writer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -413,7 +492,7 @@ OutputDefault6=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=EPSON9EE410 (K100)#:1
+TargetPrinter=Microsoft XPS Document Writer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -593,7 +672,7 @@ PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=EPSON9EE410 (K100)#:1
+TargetPrinter=Microsoft XPS Document Writer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Configuration compliance
 OutputName1=Environment configuration compliance check
@@ -632,7 +711,7 @@ OutputDefault6=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=EPSON9EE410 (K100)#:1
+TargetPrinter=Microsoft XPS Document Writer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -932,6 +1011,78 @@ NetClassManualEnabled=0
 SelectedOnly=0
 UpdateVariants=1
 PartTypes=0
+ComponentLibIdentifierKind0=Any
+ComponentLibraryIdentifier0=
+ComponentDesignItemID0=PCMCIA68-2
+ComponentSymbolReference0=PCMCIA68-2
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
+ComponentLibIdentifierKind1=Any
+ComponentLibraryIdentifier1=
+ComponentDesignItemID1=PCMCIAII15
+ComponentSymbolReference1=PCMCIAII15
+ComponentUpdate1=1
+ComponentIsDeviceSheet1=0
+ComponentLibIdentifierKind2=Library Name And Type
+ComponentLibraryIdentifier2=fastcar.SchLib
+ComponentDesignItemID2=3220-10-0100-00
+ComponentSymbolReference2=3220-10-0100-00
+ComponentUpdate2=1
+ComponentIsDeviceSheet2=0
+ComponentLibIdentifierKind3=Library Name And Type
+ComponentLibraryIdentifier3=fastcar.SchLib
+ComponentDesignItemID3=B4B-PH-K-S(LF)(SN)
+ComponentSymbolReference3=B4B-PH-K-S(LF)(SN)
+ComponentUpdate3=1
+ComponentIsDeviceSheet3=0
+ComponentLibIdentifierKind4=Library Name And Type
+ComponentLibraryIdentifier4=Miscellaneous Devices.IntLib
+ComponentDesignItemID4=Res3
+ComponentSymbolReference4=Res3
+ComponentUpdate4=1
+ComponentIsDeviceSheet4=0
+ComponentLibIdentifierKind5=Library Name And Type
+ComponentLibraryIdentifier5=servo.SchLib
+ComponentDesignItemID5=77311-118-02LF
+ComponentSymbolReference5=77311-118-02LF
+ComponentUpdate5=1
+ComponentIsDeviceSheet5=0
+ComponentLibIdentifierKind6=Library Name And Type
+ComponentLibraryIdentifier6=servo.SchLib
+ComponentDesignItemID6=ATSAMD10C13A
+ComponentSymbolReference6=ATSAMD10C13A
+ComponentUpdate6=1
+ComponentIsDeviceSheet6=0
+ComponentLibIdentifierKind7=Library Name And Type
+ComponentLibraryIdentifier7=servo.SchLib
+ComponentDesignItemID7=CC1206KKX7R8BB105
+ComponentSymbolReference7=CC1206KKX7R8BB105
+ComponentUpdate7=1
+ComponentIsDeviceSheet7=0
+ComponentLibIdentifierKind8=Library Name And Type
+ComponentLibraryIdentifier8=servo.SchLib
+ComponentDesignItemID8=CC1206KRX7R9BB104
+ComponentSymbolReference8=CC1206KRX7R9BB104
+ComponentUpdate8=1
+ComponentIsDeviceSheet8=0
+ComponentLibIdentifierKind9=Library Name And Type
+ComponentLibraryIdentifier9=servo.SchLib
+ComponentDesignItemID9=Conn3Pin
+ComponentSymbolReference9=Conn3Pin
+ComponentUpdate9=1
+ComponentIsDeviceSheet9=0
+ComponentLibIdentifierKind10=Library Name And Type
+ComponentLibraryIdentifier10=servo.SchLib
+ComponentDesignItemID10=DRV8838DSGT
+ComponentSymbolReference10=DRV8838DSGT
+ComponentUpdate10=1
+ComponentIsDeviceSheet10=0
+ComponentLibIdentifierKind11=Library Name And Type
+ComponentLibraryIdentifier11=servo.SchLib
+ComponentDesignItemID11=MCP1702
+ComponentSymbolReference11=MCP1702
+ComponentUpdate11=1
+ComponentIsDeviceSheet11=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -945,6 +1096,75 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
+ParameterName0=Comment
+ParameterUpdate0=1
+ParameterName1=Component Kind
+ParameterUpdate1=1
+ParameterName2=Description
+ParameterUpdate2=1
+ParameterName3=LatestRevisionDate
+ParameterUpdate3=1
+ParameterName4=LatestRevisionNote
+ParameterUpdate4=1
+ParameterName5=Library Reference
+ParameterUpdate5=1
+ParameterName6=PackageDescription
+ParameterUpdate6=1
+ParameterName7=PackageReference
+ParameterUpdate7=1
+ParameterName8=Published
+ParameterUpdate8=1
+ParameterName9=Publisher
+ParameterUpdate9=1
+ParameterName10=Supplier 1
+ParameterUpdate10=1
+ParameterName11=Supplier Part Number 1
+ParameterUpdate11=1
+ParameterName12=Text Field6
+ParameterUpdate12=1
+ParameterName13=Text Field7
+ParameterUpdate13=1
+ParameterName14=Value
+ParameterUpdate14=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=12Z-2010
+ModelUpdate0=1
+ModelType1=PCBLIB
+ModelName1=14-1210
+ModelUpdate1=1
+ModelType2=PCBLIB
+ModelName2=3220-10-0100
+ModelUpdate2=1
+ModelType3=PCBLIB
+ModelName3=B4B-PH-K-S(LF)(SN)
+ModelUpdate3=1
+ModelType4=PCBLIB
+ModelName4=J1-0603
+ModelUpdate4=1
+ModelType5=PCBLIB
+ModelName5=MCP1702-SOT-23A
+ModelUpdate5=1
+ModelType6=PCBLIB
+ModelName6=PCMCIA68-2
+ModelUpdate6=1
+ModelType7=PCBLIB
+ModelName7=PCMCIAII15
+ModelUpdate7=1
+ModelType8=PCBLIB
+ModelName8=RESC6332
+ModelUpdate8=1
+ModelTypeGroup1=SI
+ModelTypeUpdate1=1
+ModelType9=SI
+ModelName9=Res
+ModelUpdate9=1
+ModelTypeGroup2=SIM
+ModelTypeUpdate2=1
+ModelType10=SIM
+ModelName10=RESISTOR
+ModelUpdate10=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0

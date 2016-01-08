@@ -1,0 +1,4 @@
+Added Component: Designator=C6(C1206YageoX7R)
+Added Pin To Net: NetName=VIN Pin=C6-1
+Added Pin To Net: NetName=GND Pin=C6-2
+Added Member To Class: ClassName=Sheet1_servo Member=Component C6 1UF 25V X7R
