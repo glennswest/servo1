@@ -1,26 +1,9 @@
-Output: Gerber Files
-Type  : Gerber
+Output: Bill of Materials
+Type  : BOM
 From  : Variant [[No Variations]] of Project [Servo.PrjPcb]
-   Generated File[servo-digital.GTL]
-   Generated File[servo-digital.GBL]
-   Generated File[servo-digital.GPB]
-   Generated File[servo-digital.GPT]
-   Generated File[servo-digital.GTO]
-   Generated File[servo-digital.GTP]
-   Generated File[servo-digital.GTS]
-   Generated File[servo-digital.GBS]
-   Generated File[servo-digital.GBP]
-   Generated File[servo-digital.GBO]
-   Generated File[servo-digital.GM13]
-   Generated File[servo-digital.GM15]
-   Generated File[servo-digital.GD1]
-   Generated File[servo-digital.GG1]
-   Generated File[servo-digital.RUL]
-   Generated File[servo-digital.EXTREP]
-   Generated File[servo-digital.REP]
 
 
-Files Generated   : 17
+Files Generated   : 0
 Documents Printed : 0
 
-Finished Output Generation At 4:41:25 PM On 1/8/2016
+Finished Output Generation At 5:00:28 PM On 1/8/2016
