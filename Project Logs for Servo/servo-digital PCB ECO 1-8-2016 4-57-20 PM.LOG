@@ -1,4 +1,0 @@
-Change Component DesignItemId : Designator=R1 Old DesignItemId=Res3 New DesignItemId=CRCW06031K00FKEAHP
-Change Component Comment : Designator=R1 Old Comment=Res3 New Comment=1K 1%
-Change Component Description : Designator=R1 Old Description=Resistor New Description=Resistor 1K 1% 0603 CRCW06031K00FKEAHP
-Change Component Library : Designator=R1 Old Library=Miscellaneous Devices.IntLib New Library=servo.SchLib

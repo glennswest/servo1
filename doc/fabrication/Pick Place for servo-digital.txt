@@ -1,0 +1,21 @@
+Designator Footprint               Mid X         Mid Y         Ref X         Ref Y         Pad X         Pad Y TB      Rotation Comment        
+
+J5         3220-10-0100         151.54mm      93.635mm         149mm          93mm         149mm          93mm  T         90.00 3220-10-0100 SWD
+C1         C1206YAGEOX7R           161mm     104.575mm         161mm         106mm         161mm         106mm  T        270.00 0.1UF 50V X7R  
+C2         C1206YAGEOX7R           164mm     104.575mm         164mm         106mm         164mm         106mm  T        270.00 0.1UF 50V X7R  
+C3         C1206YAGEOX7R           155mm     104.575mm         155mm         106mm         155mm         106mm  T        270.00 0.1UF 50V X7R  
+C4         C1206YAGEOX7R           171mm     104.425mm         171mm         103mm         171mm         103mm  B         90.00 0.1UF 50V X7R  
+C5         C1206YAGEOX7R       156.575mm         106mm         158mm         106mm         158mm         106mm  B        180.00 0.1UF 50V X7R  
+C7         C1206YAGEOX7R           161mm     104.575mm         161mm         106mm         161mm         106mm  B        270.00 1UF 25V X7R    
+C8         C1206YAGEOX7R           164mm     104.575mm         164mm         106mm         164mm         106mm  B        270.00 1UF 25V X7R    
+C9         C1206YAGEOX7R           167mm      96.575mm         167mm          98mm         167mm          98mm  T        270.00 1UF 25V X7R    
+J1         022232031            166.46mm         110mm         169mm         110mm         169mm         110mm  T        180.00 Molex 0022232031 3 Pin .100 Male
+J2         022232031               150mm      101.54mm         150mm          99mm         150mm          99mm  T         90.00 Molex 0022232031 3 Pin .100 Male
+J3         77311-118-02LF          170mm       94.73mm         170mm          96mm         170mm          96mm  T        270.00 Header2        
+R1         J1-0603                 154mm         101mm         154mm         101mm         154mm      101.75mm  B        270.00 1K 1%          
+U1         ATSAMD10C13A         161.19mm      96.725mm         165mm          94mm         165mm          94mm  B         90.00 ATSAMD10C13A-SSUT
+U2         DRV8838DSGT          170.25mm      100.29mm       169.5mm         101mm       169.5mm    100.9999mm  B        270.00 DRV8838DSGT    
+U3         MCP1702-SOT-23A      167.95mm      104.95mm         167mm         104mm         167mm         104mm  T         90.00 MCP1702T-3302E/CB
+C6         C1206YAGEOX7R           158mm     104.575mm         158mm         106mm         158mm         106mm  T        270.00 1UF 25V X7R    
+J4         B4B-PH-K-S(LF)(SN)      154.19mm         110mm         158mm         110mm         158mm         110mm  T        180.00 B4B-PH-K-S(LF)(SN)
+

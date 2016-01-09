@@ -1,6 +1,0 @@
-Added Component: Designator=J4(B4B-PH-K-S(LF)(SN))
-Added Pin To Net: NetName=SCL Pin=J4-1
-Added Pin To Net: NetName=SDA Pin=J4-2
-Added Pin To Net: NetName=VIN Pin=J4-3
-Added Pin To Net: NetName=GND Pin=J4-4
-Added Member To Class: ClassName=Sheet1_servo Member=Component J4 B4B-PH-K-S(LF)(SN)
